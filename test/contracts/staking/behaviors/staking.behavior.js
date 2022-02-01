@@ -1,6 +1,6 @@
 const {accounts} = require('@openzeppelin/test-environment');
 const {BN, expectRevert, expectEvent} = require('@openzeppelin/test-helpers');
-const {constants} = require('@animoca/ethereum-contracts-core_library');
+const {constants} = require('@cryptogesic/ethereum-contracts-core_library');
 
 const {debugCurrentState} = require('./debug.behavior');
 

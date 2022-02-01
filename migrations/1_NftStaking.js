@@ -1,5 +1,5 @@
 const {fromWei} = require('web3-utils');
-const {DefaultNFMaskLength} = require('@animoca/ethereum-contracts-assets_inventory').constants;
+const {DefaultNFMaskLength} = require('@cryptogesic/ethereum-contracts-assets_inventory').constants;
 const {
     DefaultCycleLengthInSeconds,
     DefaultPeriodLengthInCycles,

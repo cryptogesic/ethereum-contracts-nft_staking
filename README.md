@@ -25,7 +25,7 @@ This project serves as a base dependency for Solidity-based Non-Fungible Token (
 Install as a module dependency in your host NodeJS project:
 
 ```bash
-$ npm install --save @animoca/ethereum-contracts-nft_staking
+$ npm install --save @cryptogesic/ethereum-contracts-nft_staking
 ```
 
 
@@ -36,7 +36,7 @@ $ npm install --save @animoca/ethereum-contracts-nft_staking
 Add the following import statement to your Solidity contract and derive your contract from `NftStaking`:
 
 ```solidity
-import "@animoca/ethereum-contracts-nft_staking/contracts/staking/NftStaking.sol";
+import "@cryptogesic/ethereum-contracts-nft_staking/contracts/staking/NftStaking.sol";
 ```
 
 The implementer contract's constructor needs to provide the following arguments to the `NftStaking` parent contract constructor:

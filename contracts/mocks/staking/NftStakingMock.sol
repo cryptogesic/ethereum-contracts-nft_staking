@@ -2,7 +2,7 @@
 
 pragma solidity 0.6.8;
 
-import "@animoca/ethereum-contracts-erc20_base/contracts/token/ERC20/IERC20.sol";
+import "@cryptogesic/ethereum-contracts-erc20_base/contracts/token/ERC20/IERC20.sol";
 import "../../staking/NftStakingV2.sol";
 
 contract NftStakingMock is NftStakingV2 {

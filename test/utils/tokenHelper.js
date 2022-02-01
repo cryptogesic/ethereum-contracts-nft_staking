@@ -1,6 +1,6 @@
 const {BN} = require('@openzeppelin/test-helpers');
-const {inventoryIds} = require('@animoca/blockchain-inventory_metadata');
-const {DefaultNFMaskLength} = require('@animoca/ethereum-contracts-assets_inventory').constants;
+const {inventoryIds} = require('@cryptogesic/blockchain-inventory_metadata');
+const {DefaultNFMaskLength} = require('@cryptogesic/ethereum-contracts-assets_inventory').constants;
 
 const Types = {
     None: 0,

@@ -3,7 +3,7 @@ const {BN, expectEvent} = require('@openzeppelin/test-helpers');
 const {
     shouldBeEqualWithETHDecimalPrecision,
     shouldBeEqualWithProportionalPrecision,
-} = require('@animoca/ethereum-contracts-core_library').fixtures;
+} = require('@cryptogesic/ethereum-contracts-core_library').fixtures;
 
 const {debugCurrentState} = require('./debug.behavior');
 const {PeriodLengthInCycles} = require('../constants');

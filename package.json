@@ -1,5 +1,5 @@
 {
-  "name": "@animoca/ethereum-contracts-nft_staking",
+  "name": "@cryptogesic/ethereum-contracts-nft_staking",
   "version": "4.0.0",
   "description": "Contracts for staking of ERC1155 NFTs vs claimable ERC20",
   "scripts": {
@@ -7,10 +7,10 @@
     "prettier:solidity": "prettier --write contracts/**/*.sol",
     "prettier:js": "prettier --write src migrations test",
     "prettier": "run-s prettier:js prettier:solidity",
-    "compile": "./node_modules/@animoca/ethereum-contracts-core_library/scripts/oz-compile.sh",
-    "test": "./node_modules/@animoca/ethereum-contracts-core_library/scripts/oz-test.sh",
-    "coverage": "./node_modules/@animoca/ethereum-contracts-core_library/scripts/coverage.sh",
-    "migrate": "./node_modules/@animoca/ethereum-contracts-core_library/scripts/migrate.sh"
+    "compile": "./node_modules/@cryptogesic/ethereum-contracts-core_library/scripts/oz-compile.sh",
+    "test": "./node_modules/@cryptogesic/ethereum-contracts-core_library/scripts/oz-test.sh",
+    "coverage": "./node_modules/@cryptogesic/ethereum-contracts-core_library/scripts/coverage.sh",
+    "migrate": "./node_modules/@cryptogesic/ethereum-contracts-core_library/scripts/migrate.sh"
   },
   "main": "src/index.js",
   "repository": {
@@ -25,10 +25,10 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "@animoca/blockchain-inventory_metadata": "0.0.1",
-    "@animoca/ethereum-contracts-assets_inventory": "=4.0.0",
-    "@animoca/ethereum-contracts-core_library": "=3.1.1",
-    "@animoca/ethereum-contracts-erc20_base": "=3.0.0",
+    "@cryptogesic/blockchain-inventory_metadata": "0.0.1",
+    "@cryptogesic/ethereum-contracts-assets_inventory": "=4.0.0",
+    "@cryptogesic/ethereum-contracts-core_library": "=3.1.1",
+    "@cryptogesic/ethereum-contracts-erc20_base": "=3.0.0",
     "eslint-config-mocha": "^0.0.0",
     "eslint-config-prettier": "^6.15.0",
     "eslint-plugin-mocha": "^8.0.0",

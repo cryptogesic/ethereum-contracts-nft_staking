@@ -1,5 +1,5 @@
-const {shouldSupportInterfaces} = require('@animoca/ethereum-contracts-core_library').behaviors;
-const {interfaces} = require('@animoca/ethereum-contracts-assets_inventory');
+const {shouldSupportInterfaces} = require('@cryptogesic/ethereum-contracts-core_library').behaviors;
+const {interfaces} = require('@cryptogesic/ethereum-contracts-assets_inventory');
 
 const {MigrationRewardSchedule, FlatRewardSchedule} = require('./constants');
 const {deploy, start} = require('./init');

@@ -1,6 +1,6 @@
 const {toWei} = require('web3-utils');
 const {accounts} = require('@openzeppelin/test-environment');
-const {ZeroAddress} = require('@animoca/ethereum-contracts-core_library').constants;
+const {ZeroAddress} = require('@cryptogesic/ethereum-contracts-core_library').constants;
 
 const {
     shouldStakeNft,

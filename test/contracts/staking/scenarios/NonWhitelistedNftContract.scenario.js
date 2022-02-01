@@ -1,5 +1,5 @@
 const {accounts, contract} = require('@openzeppelin/test-environment');
-const {DefaultNFMaskLength} = require('@animoca/ethereum-contracts-assets_inventory').constants;
+const {DefaultNFMaskLength} = require('@cryptogesic/ethereum-contracts-assets_inventory').constants;
 
 const AssetsInventory = contract.fromArtifact('AssetsInventoryMock');
 
